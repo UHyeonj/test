@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>동균이의 영화 서비스</title>
+    <link rel="stylesheet" href="istyle.css" />
+  </head>
+  <body>
+    <header>
+      <a href="/index.html">홈</a>
+      <a href="/movie.html">인기 영화 목록</a>
+    </header>
+
+    <main>
+      <h1>당신의 다음 영화는?</h1>
+      <p>전 세계 인기 영화부터, 지금 놓치면 안 될 명작까지.</p>
+      <p>감성적인 영화 탐험을 지금 시작하세요.</p>
+      <button class="movie-button">인기 영화 보러가기</button>
+    </main>
+
+    <footer>
+      © 2025 동균이의 영화 서비스. All rights reserved.
+    </footer>
+    <script>
+      const btn = document.querySelector(".movie-button");
+      btn.addEventListener("click", () => {
+        window.location.href = "/movie.html";
+      });
+    </script>
+  </body>
+</html>
